@@ -1,0 +1,7 @@
+git init
+git status
+git commit -m "comment here"
+git add *
+git rm --cache <filename>
+git remote add origin https://github.com/sairamaj/java
+git push origin master
