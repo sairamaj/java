@@ -5,3 +5,4 @@ git add *
 git rm --cache <filename>
 git remote add origin https://github.com/sairamaj/java
 git push origin master
+git clone <url> ( in new directory to get source from remote
