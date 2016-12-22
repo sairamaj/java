@@ -6,3 +6,9 @@ git rm --cache <filename>
 git remote add origin https://github.com/sairamaj/java
 git push origin master
 git clone <url> ( in new directory to get source from remote
+
+to remove directory
+	git rm -r one-of-the-directories
+	git commit -m "Remove duplicated directory"
+	git push origin <your-git-branch> (typically 'master', but not always)
+—--
