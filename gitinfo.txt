@@ -12,3 +12,9 @@ to remove directory
 	git commit -m "Remove duplicated directory"
 	git push origin <your-git-branch> (typically 'master', but not always)
 —--
+
+to apply newly added .gitignore to already existing files on GitHub
+	git rm -r --cached .
+	git add .
+	git commit -m ".gitignore is now working"
+	git push origin master
