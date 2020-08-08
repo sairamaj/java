@@ -9,8 +9,7 @@ public class Disk {
 	
 	void draw() {
 		for(int i=0; i<length; i++) {
-			System.out.print('_');
+			System.out.print('*');
 		}
-		System.out.println("");
 	}
 }

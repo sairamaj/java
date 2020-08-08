@@ -17,7 +17,7 @@ public class ConsolePole implements IPole{
 		}
 	}
 
-	void drawDisk() {
-		this.disk = disk;
+	public void drawDisks() {
+		this.disk.draw();
 	}
 }

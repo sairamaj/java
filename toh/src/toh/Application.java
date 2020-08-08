@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Application {
 
 	public static void main(String[] args) {
+		
 		ArrayList<IPole> poles = new ArrayList<IPole>();
 		for (int i = 0; i < 3; i++) {
 			poles.add(PartsFactory.createPole(new Disk(10)));
@@ -22,10 +23,17 @@ public class Application {
 		}
 		
 		fillPoleGap(15);
+		
 		for (IPole pole : poles) {
+			pole.drawDisks();
+			fillPoleGap(11);
+		}
+		
+	/*	for (IPole pole : poles) {
 			pole.drawBase();
 			fillPoleGap(11);
 		}
+		*/
 	}
 
 	static void fillPoleGap(int gapLength) {
